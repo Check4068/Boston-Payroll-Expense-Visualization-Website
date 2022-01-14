@@ -117,7 +117,7 @@ app.layout = html.Div([
                             style={'display': 'inline-block','width' : '45%', 'float' : 'left','margin': 'auto'}),
 
 
-    html.Div([html.P('Users can use the check box element to compare the percentage of total earnings across counties in the pie chart and identify departments with the highest earnings in the table. For example, if we choose Suffolk and Middlesex as the base of our analysis, then we can see that Suffolk is 86.9 percent compared to the sum of both counties.The table will also reflect the top 10 total earnings departments/county in Suffolk and Middlesex.'),
+    html.Div([html.P('Users can use the check box element to compare the percentage of total earnings across counties in the pie chart and identify departments with the highest earnings in the table. For example, if we choose Suffolk and Middlesex as the base of our analysis, then we can see that Suffolk is 86.9 percent compared to the sum of both counties.'),
                 html.H4('Countys to Display for Pie Chart:'),
                 html.Div(dcc.Checklist(
                   options=[{'label':'Suffolk', 'value':'Suffolk'},
@@ -139,7 +139,7 @@ app.layout = html.Div([
              style={'display': 'inline-block','width' : '50%', 'float' : 'right','margin': 'auto'}),
 
     html.Div(children=[
-                html.P(''),
+                html.P('The table will also reflect the top 10 total earnings departments/county in Suffolk and Middlesex.'),
                 html.H4(children='Top Earnings Table'),
                 generate_table(df)], 
                 id ='table_div'),
