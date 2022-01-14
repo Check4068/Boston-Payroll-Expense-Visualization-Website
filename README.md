@@ -1,7 +1,7 @@
 # Visualization Website by using Dash and Heroku
 
 You can visit the website 
-https://Boston-Payroll-Expense-Visualization-Website.herokuapp.com/
+https://payroll-expense-analysis.herokuapp.com/
 
 In this project, I am interested in studying the top 10 departments with the highest total payroll expense in each county in Massachusetts in 2020. The link to this dashboard is:
 
