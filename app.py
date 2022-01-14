@@ -139,6 +139,7 @@ app.layout = html.Div([
              style={'display': 'inline-block','width' : '50%', 'float' : 'right','margin': 'auto'}),
 
     html.Div(children=[
+                html.P(''),
                 html.H4(children='Top Earnings Table'),
                 generate_table(df)], 
                 id ='table_div'),
